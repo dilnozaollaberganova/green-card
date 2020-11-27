@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/normalise.css">
+
+  <title>green card</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1>GREEN CARD</h1>
+
+    </div>
+  </header>
+
+  <fieldset>
+    <legend>FOYDALANUVCHI</legend>
+    <form action="https://echo.htmlacademy.ru">
+
+      <div class="label">
+        <label for="name">ISM</label>
+        <input type="text" id="name" name="name">
+      </div>
+
+      <div class="label">
+        <label for="surname">FAMILIYA</label>
+        <input type="text" id="surname" name="surname">
+      </div>
+
+      <div class="label">
+        <label for="tel">TELEFON RAQAM</label>
+        <input type="tel" id="tel" name="tel">
+      </div>
+
+      <div class="label">
+        <label for="Email">EMAIL</label>
+        <input type="email" id="Email" name="email">
+      </div>
+
+      <div class="label">
+        <label for="birthday">TUGILGAN KUN</label>
+        <input type="date" id="birthday" name="birthday">
+      </div>
+
+      <div class="label">
+        <label for="passport"> PASSPORT scan</label>
+        <input class="passport" type="file" id="passport" name="passport">
+      </div>
+
+      <div class="label">
+        <h2>JINSINGIZ</h2>
+
+        <div class="label-one">
+
+          <div class="woman">
+            <label for="female">AYOL</label>
+            <input type="radio" id="female" name="jinsi" value="ayol">
+          </div>
+
+          <div class="man">
+            <label for="male">ERKAK</label>
+            <input type="radio" id="male" name="jinsi" value="erkak">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="label">
+        <label for="color">SEVIMLI RANG</label>
+        <input type="color" id="color" name="fav-color">
+      </div>
+
+      <div class="label">
+        <label for="food">SEVIMLI OVQATINGIZ</label>
+        <input list="fav-food" name="fav-food" id="food">
+        <datalist name="select" id="fav-food">
+          <option value="osh">osh</option>
+          <option value="manti">manti</option>
+          <option value="xonim">xonim</option>
+          <option value="norin">norin</option>
+          <option value="shorva">shorva</option>
+          <option value="kabob">kabob</option>
+          <option value="xasip">xasip</option>
+          <option value="ilik shorva">ilik shorva</option>
+          <option value="koza shorva">koza shorva</option>
+          <option value="gul xonim">gul honim</option>
+        </datalist>
+      </div>
+
+      <div class="label">
+        <label for="teacher">SEVIMLI OQITUVCHINGIZ</label>
+        <input list="fav-teacher" name="fav-teacher" id="teacher">
+        <datalist name="select" id="fav-teacher">
+          <option value="khumoyun inoyatov">Khumoyun Inoyatov</option>
+          <option value="khumoyun inoyatov">Khumoyun Inoyatov</option>
+          <option value="khumoyun inoyatov">Khumoyun Inoyatov</option>
+          <option value="khumoyun inoyatov">Khumoyun Inoyatov</option>
+          <option value="khumoyun inoyatov">Khumoyun Inoyatov</option>
+          <option value="khumoyun inoyatov">Khumoyun Inoyatov</option>
+          <option value="khumoyun inoyatov">Khumoyun Inoyatov</option>
+          <option value="khumoyun inoyatov">Khumoyun Inoyatov</option>
+          <option value="khumoyun inoyatov">Khumoyun Inoyatov</option>
+        </datalist>
+
+      </div>
+
+      <div class="label">
+        <label for="about-me">OZINGIZ HAQINGIZDA</label>
+        <textarea name="about-me" id="about-me" id="text" cols="30" rows="10"></textarea>
+      </div>
+
+      <div class="label">
+        <label for="zapomnite">ESLAB QOLING</label>
+        <input type="text" id="zapomnite" name="zapomnite">
+      </div>
+
+      <div class="button">
+        <button type="submit">TOPSHIRISH</button>
+      </div>
+
+    </form>
+  </fieldset>
+
+
+
+
+
+
+</body>
+
+</html>

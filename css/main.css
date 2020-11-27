@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+}
+
+
+body {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+fieldset {
+  border: none;
+  width: 600px;
+}
+
+
+form {
+  margin-bottom: 100px;
+}
+
+fieldset legend {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+fieldset label {
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+
+}
+
+.passport {
+  width: 185px;
+}
+
+fieldset input {
+  background-color: #B5ADAA;
+  border: none;
+  padding: 5px 50px;
+  border-radius: 4px;
+
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.label textarea {
+  resize: none;
+  border: none;
+  background-color: #B5ADAA;
+  border-radius: 4px;
+  width: 280px;
+}
+
+button {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  background-color: grey;
+  padding: 25px 80px;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: black;
+  background-color: blue;
+}
+
+button:active {
+  color: black;
+  background-color: chartreuse;
+}
+
+.button {
+  text-align: center;
+}
+
+.label-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.woman {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-right: 140px;
+  }
+
+.man {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
